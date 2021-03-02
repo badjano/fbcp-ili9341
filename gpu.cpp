@@ -384,10 +384,10 @@ void InitGPU()
   */
 
   // The overscan values are in normalized 0.0 .. 1.0 percentages of the total width/height of the screen.
-  double overscanLeft = 0.12646484375;
-  double overscanRight = 0.12646484375;
-  double overscanTop = 0.00;
-  double overscanBottom = 0.00;
+  double overscanLeft = 0.00;
+  double overscanRight = 0.00;
+  double overscanTop =    0.125;
+  double overscanBottom = 0.125;
 
   // If specified, computes overscan that crops away equally much content from all sides of the source frame
   // to display the center of the source frame pixel perfect.
